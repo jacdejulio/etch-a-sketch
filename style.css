@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    width: 650px;
+    height: 650px;
+    border: 1px solid gray;
+    padding: 0;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+
+.square {
+    border: 1px solid gray;
+    display: inline-block;
+
+    /* width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0; */
+}
