@@ -6,7 +6,7 @@ let square = document.createElement("div");
 
 
 
-grid(16)
+grid(32)
 
 
 function grid(numRows) {
@@ -24,3 +24,12 @@ function grid(numRows) {
 }
 
 
+const allSquares = document.querySelectorAll(".square");
+
+for (let i = 0; i < allSquares.length; i++) {
+    let perSquare = allSquares[i]; // Access each square individually
+
+    perSquare.addEventListener("click", () => {
+        perSquare.style.backgroundColor = "black"; // Set the background color of the clicked square
+    });
+}
